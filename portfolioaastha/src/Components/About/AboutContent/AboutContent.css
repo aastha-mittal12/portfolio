@@ -1,0 +1,20 @@
+.aboutmid{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:  2rem auto;
+    
+}
+.leftdiv{
+    width: 50%;
+    align-items: center;
+}
+
+.rightdiv{
+   width:40%; 
+}
+.rightdiv img{
+    border-radius: 50%;
+    width: 80%;
+    align-items: center;
+}

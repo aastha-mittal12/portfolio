@@ -1,0 +1,40 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #1c1c1c; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+  }
+  
+  h1 {
+    font-size: 72px;
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  
+  .home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #1c1c1c; /* Dark text color for contrast */
+    background-color: #f8f9fa; /* Light background for button */
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .home-link:hover {
+    background-color: #e0e0e0; /* Slightly darker button background on hover */
+  }
+  

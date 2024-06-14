@@ -1,0 +1,122 @@
+.footer{
+    width:100%;
+    padding: 6rem 0;
+    background-color: rgba(19 , 19 ,19,0.8);
+
+}
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 40px;
+
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+
+}
+.location p{
+    line-height: 30px;
+
+}
+.right {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.social{
+    margin-top: 1rem;
+     
+}
+
+h4{
+    font-size: 1.rem;
+    padding-bottom: 0.7rem;
+}
+p{
+    font-size: 1.2rem;
+
+}
+.location,
+.phone,
+.email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.icon {
+    margin-right: 1rem;
+}
+
+.location p,
+.phone h4,
+.email h4 {
+    color: #fff;
+    margin: 0;
+}
+
+.location p {
+    font-size: 1.2rem;
+}
+
+.phone h4,
+.email h4 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.social {
+    margin-top: 1rem;
+}
+
+.social a {
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .left,
+    .right {
+        text-align: center;
+    }
+    p{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 1rem;
+
+    }
+    .icon h4 , p{
+        font-size: 1rem;
+    }
+}
